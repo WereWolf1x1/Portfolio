@@ -4,54 +4,129 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Faheem's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Devicon icons for tech and socials -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Navbar -->
   <nav>
-    <div class="logo">Faheem</div>
+    <div class="nav-left">
+      <a href="https://github.com/faheem" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+        <i class="devicon-github-original"></i>
+      </a>
+      <a href="https://linkedin.com/in/faheem" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+        <i class="devicon-linkedin-plain"></i>
+      </a>
+    </div>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Home Section -->
   <section id="home">
-    <h1>Hi, I'm Faheem</h1>
-    <p>Software Developer | AI Enthusiast | Game Developer</p>
+    <div class="intro-text">
+      <h1>Hi, I'm Faheem</h1>
+      <p>Software Developer | AI Enthusiast | Game Developer</p>
+
+      <div class="social-links">
+        <a href="https://github.com/faheem" target="_blank">
+          <img src="github-logo.png" alt="GitHub Logo" />
+        </a>
+        <a href="https://linkedin.com/in/faheem" target="_blank">
+          <img src="linkedin-logo.png" alt="LinkedIn Logo" />
+        </a>
+      </div>
+    </div>
+    <img src="pic1.jpeg" alt="Faheem Haider" />
+
   </section>
 
   <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-item">
-      <h3>AI Email Assistant</h3>
-      <p>A tool that summarizes and manages your inbox automatically.</p>
-    </div>
-    <div class="project-item">
-      <h3>Backgammon Multiplayer Game</h3>
-      <p>Unity-based mobile game with matchmaking and tournament modes.</p>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project Title 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 5</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 6</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-item">Python</div>
-    <div class="skill-item">C# (Unity)</div>
-    <div class="skill-item">Machine Learning</div>
-    <div class="skill-item">Web & App Development</div>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="devicon-csharp-plain skill-icon" title="C#"></i>
+      <h3>C#</h3>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-python-plain skill-icon" title="Python"></i>
+      <h3>Python</h3>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-cplusplus-plain skill-icon" title="C++"></i>
+      <h3>C++</h3>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-unity-original skill-icon" title="Unity"></i>
+      <h3>Unity</h3>
+    </div>
+  </div>
+</section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <img src="pic2.jpeg" alt="About Faheem" />
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I'm a passionate software developer with expertise in creating innovative solutions across multiple platforms. With a strong foundation in AI and machine learning, I love building intelligent applications that solve real-world problems.</p>
+      <p>My journey in software development has led me to work on diverse projects ranging from web applications to game development. I'm constantly learning new technologies and pushing the boundaries of what's possible with code.</p>
+      <p>When I'm not coding, you can find me exploring the latest advancements in artificial intelligence, contributing to open-source projects, or brainstorming the next big idea.</p>
+    </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Feel free to reach out!</p>
-    <p>Email: <a href="mailto:faheem@example.com">faheem@example.com</a></p>
+      <div class="home-logos">
+        <a href="https://github.com/faheem" target="_blank" rel="noopener" class="home-logo" aria-label="GitHub">
+          <i class="devicon-github-original"></i>
+        </a>
+        <a href="https://linkedin.com/in/faheem" target="_blank" rel="noopener" class="home-logo" aria-label="LinkedIn">
+          <i class="devicon-linkedin-plain"></i>
+        </a>
+      </div>
     <p>LinkedIn: <a href="https://linkedin.com/in/faheem" target="_blank">linkedin.com/in/faheem</a></p>
     <p>GitHub: <a href="https://github.com/faheem" target="_blank">github.com/faheem</a></p>
   </section>
